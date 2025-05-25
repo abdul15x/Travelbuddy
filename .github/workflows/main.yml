@@ -18,18 +18,18 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.19.6' # or your preferred stable version
+          flutter-version: '3.19.6'
 
       - name: Install dependencies
         run: flutter pub get
-        working-directory: 'mad lab/mad project/flutter_application_1'
+        working-directory: 'flutter_application_1'
 
       - name: Build Web
         run: flutter build web
-        working-directory: 'mad lab/mad project/flutter_application_1'
+        working-directory: 'flutter_application_1'
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: './mad lab/mad project/flutter_application_1/build/web'
+          publish_dir: './flutter_application_1/build/web'
