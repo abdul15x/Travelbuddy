@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "891621514637",
+    "project_id": "mad-project-cab42",
+    "storage_bucket": "mad-project-cab42.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891621514637:android:f031eba47088726bbef1c4",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891621514637-dfmecqpglrnlvrk04tgleimamclpv1th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyIdb0F8ot8MuUbOzd-ldfY8nmV-H1VaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891621514637-dfmecqpglrnlvrk04tgleimamclpv1th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
